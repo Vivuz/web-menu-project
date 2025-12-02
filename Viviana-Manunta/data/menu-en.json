@@ -1,0 +1,550 @@
+{
+    "en": {
+        "APPETIZERS": [
+            {
+                "nome": "CURED MEATS AND CHEESE BOARD",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "BEEF CARPACCIO: THIN SLICES OF RAW BEEF",
+                "descrizione": "",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "THIN SLICES OF RAW BEEF WITH STRACCIATELLA CHEESE AND PISTACHIO CRUMBS.",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "BUFFALO CARPACCIO",
+                "descrizione": "",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "GRILLED VEGETABLES",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            }
+        ],
+        "GRILL": [
+            {
+                "nome": "SLICED BEEF WITH ARUGULA AND GRANA CHEESE, 250GR",
+                "descrizione": "",
+                "prezzo": "€16.00"
+            },
+            {
+                "nome": "SLICED BEEF WITH SUN-DRIED TOMATOES AND CAVE-AGED CACIOCAVALLO CHEESE, 250GR",
+                "descrizione": "",
+                "prezzo": "€16.00"
+            },
+            {
+                "nome": "SLICED BEEF WITH PISTACHIO CREAM AND BURRATA CHEESE, 250GR",
+                "descrizione": "",
+                "prezzo": "€18.00"
+            }
+        ],
+        "PLATED HAMBURGER*": [
+            {
+                "nome": "HAMBURGER* PISTACCHIOSO",
+                "descrizione": "BURRATA CHEESE AND PISTACHIO CREAM, 200GR",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "HAMBURGER* CACIO E PEPE",
+                "descrizione": "CRUNCHY BACON AND CACIO E PEPE CREAM, 200GR",
+                "prezzo": "€10.00"
+            }
+        ],
+        "FINGER FOOD": [
+            {
+                "nome": "FRENCH FRIES*",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            },
+            {
+                "nome": "SWEET POTATO*",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "SMALL FRIED DOUGH BALLS*",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            },
+            {
+                "nome": "ONION RINGS*",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            },
+            {
+                "nome": "TRUFFLE MOZZARELLINE CHEESE*",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "CHEESE AND PEPPER NUGGETS*",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "CHICKEN STICK*",
+                "descrizione": "",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "PISTACHIO MEATBALLS",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "CACIO AND PEPPER MEATBALLS",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "JALAPEÑO*",
+                "descrizione": "",
+                "prezzo": "€7.00"
+            }
+        ],
+        "PIZZE ROSSE GOURMET": [
+            {
+                "nome": "THE BLONDES",
+                "descrizione": "(STUFFED CRUST WITH FRESH SAUSAGE AND CAVE-AGED CACIOCAVALLO CHEESE, TOMATO, MOZZARELLA, YELLOW CHERRY TOMATOES, POST-COOKING CRISPY GUANCIALE, BURRATA)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "LA CALABRESE",
+                "descrizione": "(TOMATO, SPICY SAUSAGE, NDUJA CREAM, POST-COOKING BURRATA, TOMATO DRY GOLD, ARUGULA, EVO OIL)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "LA CANTABRICA",
+                "descrizione": "(TOMATO, SPICY SAUSAGE, NDUJA CREAM, POST-COOKING BURRATA, TOMATO DRY GOLD, ARUGULA, EVO OIL)",
+                "prezzo": "€12.00"
+            }
+        ],
+        "PIZZE BIANCHE GOURMET": [
+            {
+                "nome": "FRANCY",
+                "descrizione": "(MOZZARELLA, CAVE-AGED CACIOCAVALLO, POST-COOKING CAPOCOLLO, SUN-DRIED TOMATOES, AND BURRATINA WITH 'NDUJA)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "PEPPINO",
+                "descrizione": "(MOZZARELLA, PORCINI MUSHROOMS, POST-COOKING CAPOCOLLO, STRACCIATELLA, AND WALNUTS)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "SALMONE",
+                "descrizione": "(MOZZARELLA, SMOKED SALMON, LEMON, PISTACHIO GRAINS, STRACCHINO)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "ARICCIA",
+                "descrizione": "(MOZZARELLA, ARRICIA PORCHETTA, BAKED POTATOES, POST-COOKING BUFFALO MOZZARELLA)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "ZUCCOSA",
+                "descrizione": "(MOZZARELLA, RAW HAM, PUMPKIN CREAM, POST-COOKING BURRATA, EXTRA VIRGIN OLIVE OIL)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "GUANCIALE, CACIO E PEPE",
+                "descrizione": "(MOZZARELLA, GUANCIALE, POST-COOKING YELLOW CHERRY TOMATOES, ARUGULA, CACIO E PEPE CREAM, EVO OIL)",
+                "prezzo": "€12.00"
+            }
+        ],
+        "PIZZE ROSSE": [
+            {
+                "nome": "MARINARA",
+                "descrizione": "(TOMATO, GARLIC, OREGANO, EVO OIL)",
+                "prezzo": "€4.00"
+            },
+            {
+                "nome": "CICCIO",
+                "descrizione": "(SALT, OREGANO, EXTRA VIRGIN OLIVE OIL)",
+                "prezzo": "€3.00"
+            },
+            {
+                "nome": "MARGHERINA",
+                "descrizione": "(TOMATO, MOZZARELLA, EXTRA VIRGIN OLIVE OIL)",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "NAPOLI",
+                "descrizione": "(TOMATO, MOZZARELLA, ANCHOVIES, OREGANO, EVO OIL)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "DIAVOLA",
+                "descrizione": "(TOMATO, MOZZARELLA, SPICY SALAMI, EVO OIL)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "WÜRSTEL",
+                "descrizione": "(TOMATO, MOZZARELLA, WÜRSTEL, EVO OIL)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "COTTO",
+                "descrizione": "(TOMATO, MOZZARELLA, HAM , EVO OIL)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "TONNO E CIPOLLA",
+                "descrizione": "(TOMATO, MOZZARELLA, TUNA, ONION, EVO OIL)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "QUATTRO STAGIONI",
+                "descrizione": "(TOMATO, MOZZARELLA, HAM, MUSHROOMS, ARTICHOKES, OLIVES, EVO OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "CAPRICCIOSA",
+                "descrizione": "(TOMATO, MOZZARELLA, HAM, MUSHROOMS, OLIVES, SPICY SALAMI, EVO OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "SAN DANIELE",
+                "descrizione": "(TOMATO, MOZZARELLA, RAW HAM, EVO OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "VALTELLINA",
+                "descrizione": "(TOMATO, MOZZARELLA, AIR CURED BEEF, ROCKET SALAD, PARMESAN, EVO OIL)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "ORTOLANA",
+                "descrizione": "(TOMATO, MOZZARELLA, AUBERGINE, COURGETTES, PEPPERS, EVO OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "BUFALA",
+                "descrizione": "(TOMATO, MOZZARELLA, BUFFALO'S MILK MOZZARELLA , EVO OIL)",
+                "prezzo": "€8.00"
+            }
+        ],
+        "PIZZE BIANCHE": [
+            {
+                "nome": "CAPRESE",
+                "descrizione": "(MOZZARELLA, CHERRY TOMATOES, OREGANO, EVO OIL)",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "LIMONE",
+                "descrizione": "(MOZZARELLA, HAM, LEMON, SALAD, EVO OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "GAMBERETTI E ZUCCHINE",
+                "descrizione": "(MOZZARELLA, SHRIMPS*, ZUCHINIS, BREAD CRUMBS, EVO OIL)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "SALSICCIA FRESCA",
+                "descrizione": "(MOZZARELLA, FRESH SAUSAGE, ROCKET SALAD, PARMESAN, EVO OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "FUME'",
+                "descrizione": "(MOZZARELLA, SPECK, SMOKED SCAMORZA , EVO OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "QUATTRO FORMAGGI",
+                "descrizione": "(MOZZARELLA, CHEESE, EMMENTAL, GORGONZOLA, EVO OLIVE OIL)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "CRUDAIOLA",
+                "descrizione": "(MOZZARELLA, CHERRY TOMATOES, HAM,PARMESAN, EVO OIL)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "KEBAB",
+                "descrizione": "(MOZZARELLA, KEBAB*, MUSHROOMS, ONION, EVO OIL)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "RE MIDA",
+                "descrizione": "(MOZZARELLA, MORTADELLA, STRACCIATELLA CHEESE, CHOPPED PISTACHIOS, PISTACHIO CREAM, EVO OIL)",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "DIAVOLA PISTACCHIOSA",
+                "descrizione": "(MOZZARELLA, SPICY SALAMI, STRACCIATELLA CHEESE, GARLIC CHOPPED PISTACHIOS, PISTACHIO CREAM, EVO OIL)",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "CAPOCOLLO",
+                "descrizione": "(MOZZARELLA, HEAD CHEESE, YELLOW CHERRY TOMATO, BUFALO'S MILK MOZZARELLA OUT OF COOKING, EVO OIL)",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "BRACCIO DI FERRO",
+                "descrizione": "(EDGE FILLED WITH STRACCIATELLA CHEESE, MAZZARELLA, BUFFALO'S MOZZ., HEAD CHEESE FROM MARTINA FRANCA, CHERRY TOMATOES, ROCKET SALAD, PARMESAN, EVO OIL)",
+                "prezzo": "€12.00"
+            }
+        ],
+        "ADDITION INGREDIENTS": [
+            {
+                "nome": "ADDITION",
+                "descrizione": "",
+                "prezzo": "€1.00"
+            },
+            {
+                "nome": "BUFFALO'S MILK MOZZARELLA",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            },
+            {
+                "nome": "LACTOSE-FREE MOZZARELLA",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            }
+        ],
+        "Create your own PANUZZO...": [
+            {
+                "nome": "PANUZZO WITH CURED MEATS",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "PANUZZO WITH MEAT",
+                "descrizione": "",
+                "prezzo": "€12.00"
+            }
+        ],
+        "DESSERT": [
+            {
+                "nome": "",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            }
+        ],
+        "SOFT DRINK": [
+            {
+                "nome": "NATURAL/SPARKLING WATER, 50CL",
+                "descrizione": "",
+                "prezzo": "€1.00"
+            },
+            {
+                "nome": "NATURAL/SPARKLING WATER, 75CL",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            },
+            {
+                "nome": "FANTA, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "COCA-COLA, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "COCA-COLA 'ZERO', 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "PEACH TEA",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "LEMON TEA",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "APERITIF IN BOTTLE",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "REDBULL",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            }
+        ],
+        "BEERS IN BOTTLES": [
+            {
+                "nome": "NASTRO, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "DREHER LEMON, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            },
+            {
+                "nome": "NASTRO 00, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "PERONI GLUTEN FREE, 33CL",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            },
+            {
+                "nome": "ICHNUSA, 33CL",
+                "descrizione": "",
+                "prezzo": "€4.00"
+            }
+        ],
+        "DRAFT BEER": [
+            {
+                "nome": "KINING HELL, 0.3L",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            },
+            {
+                "nome": "KONING WEISS, 0.3L",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            },
+            {
+                "nome": "OBERBRAI, 0.3L",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            }
+        ],
+        "RED WINES SELECTION 🍾": [
+            {
+                "nome": "CANTALUPI NEGROAMARO I.G.P SALENTO",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "FICO SUSUMANIELLO",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            },
+            {
+                "nome": "LUMINARIA PRIMITIVO DI MANDURIA",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            },
+            {
+                "nome": "CHICCA PRIMITIVO DI MANDURIA",
+                "descrizione": "",
+                "prezzo": "€25.00"
+            },
+            {
+                "nome": "PRIMITIVO MANDURIA DOC 60 ANNI",
+                "descrizione": "",
+                "prezzo": "€40.00"
+            }
+        ],
+        "WHITE WINES SELECTION 🍾": [
+            {
+                "nome": "CANTALUPI CHARDONNAY",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "RICCIO VERDECA",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            }
+        ],
+        "ROSE' WINE SELECTION 🍾": [
+            {
+                "nome": "CERASUOLO D'ABRUZZO",
+                "descrizione": "",
+                "prezzo": "€18.00"
+            },
+            {
+                "nome": "TRAMARI",
+                "descrizione": "",
+                "prezzo": "€18.00"
+            },
+            {
+                "nome": "TRIGLIA NEGROAMARO ROSATO",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            }
+        ],
+        "SPARKLING WINE 🍾": [
+            {
+                "nome": "PROSECCO",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "FONTANA FREDDA",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "FERRARI",
+                "descrizione": "",
+                "prezzo": "€40.00"
+            },
+            {
+                "nome": "FRANCIACORTA FRATUS",
+                "descrizione": "",
+                "prezzo": "€45.00"
+            },
+            {
+                "nome": "CA DEL BOSCO",
+                "descrizione": "",
+                "prezzo": "€60.00"
+            }
+        ],
+        "RHUM": [
+            {
+                "nome": "DIPLOMATICO",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            },
+            {
+                "nome": "DON PAPA",
+                "descrizione": "",
+                "prezzo": "€4.00"
+            },
+            {
+                "nome": "ZACAPA GRAN RESERVA",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            }
+        ],
+        "GRAPPE": [
+            {
+                "nome": "903 BARRIQUE",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            }
+        ],
+        "AMARI E LIQUORI": [
+            {
+                "nome": "",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            }
+        ],
+        "WHISKY": [
+            {
+                "nome": "",
+                "descrizione": "",
+                "prezzo": "€4.00"
+            }
+        ],
+        "Table service": [
+            {
+                "nome": "",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            }
+        ]
+    }
+}

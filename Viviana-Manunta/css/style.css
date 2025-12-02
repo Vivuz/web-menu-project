@@ -1,0 +1,251 @@
+/*
+ * Project: Il Rifugio del Re - Digital Menu
+ * Description: Main stylesheet for layout, typography, and responsive design.
+ * Author: Viviana Manunta
+ * Date: October 2025
+ */
+ 
+ /* ===== GLOBAL STYLES & RESET ===== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(241, 236, 236);
+}
+
+.site-header {
+    margin-bottom: 3em;
+}
+
+/* Utility class for consistent margin spacing */
+.margin-style {
+    margin: 1em;
+}
+
+/* ===== TYPOGRAPHY ===== */
+
+/* Main serif font for headings and title */
+.cormorant-sc-bold,
+.title {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(2, 1, 1);
+    letter-spacing: 0.2rem;
+}
+
+/* Responsive main title size */
+.title {
+    font-size: clamp(2rem, 6vw, 5rem);
+}
+
+/* Secondary serif font weight for subtitles */
+.cormorant-sc-semibold {
+    font-family: "Cormorant SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+}
+
+/* Address and phone links styling */
+.address a,
+.phone-link {
+    color: rgba(192, 0, 0);
+    line-height: 1.4;
+    word-break: keep-all;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for clickable links (address & phone) */
+.address a:hover,
+.phone-link:hover {
+  text-decoration: underline;
+  color: rgba(150, 0, 0);
+  cursor: pointer;
+}
+
+/* Address style */
+.cardo-regular {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    letter-spacing: 0.3rem;
+}
+
+/* ===== BUTTONS ===== */
+
+/* General button appearance */
+.btn {
+    color: rgba(241, 236, 236);
+    background-color: rgba(46, 45, 45);
+    border: 2px solid transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Hover state for all buttons */
+.btn:hover {
+    font-weight: bold;
+    color: rgba(46, 45, 45);
+    background-color: rgba(241, 236, 236);
+    border: 2px solid rgba(46, 45, 45);
+}
+
+/* Visible focus outline for keyboard navigation (accessibility) */
+button:focus-visible,
+a:focus-visible {
+    outline: 2px solid #2e2d2d;
+    outline-offset: 2px;
+}
+
+/* ===== CATEGORY NAVIGATION BAR ===== */
+
+/* Sticky navigation bar containing category buttons */
+#categories {
+    -ms-overflow-style: none; /* Hide scrollbar on IE/Edge */
+    justify-content: center !important;
+    align-items: center;
+}
+
+/* Hide scrollbar on Chrome/Safari */
+#categories::-webkit-scrollbar {
+    display: none;
+}
+
+/* Category buttons styling */
+.category-btn {
+    white-space: nowrap; /* Prevent text wrapping */
+    padding: 1rem;
+    font-family: "Cormorant SC", serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+/* ===== MENU STRUCTURE ===== */
+
+/* Container for each category's menu items */
+.items-container {
+    margin: 1.2rem clamp(1rem, 4vw, 3rem);
+}
+
+/* Layout for dish name and price on same line */
+.item-header {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0.5em;
+}
+
+/* Wrapper for each category block */
+.category {
+    margin: clamp(1rem, 5vw, 5vw);
+}
+
+/* Category title style */
+.category-title {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(46, 45, 45);
+    text-indent: 2em;
+}
+
+/* ===== MENU ITEMS ===== */
+
+/* Container for dish name and price */
+.item-name {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+/* Dotted line between name and price */
+.item-name::after {
+    content: '';
+    flex-grow: 1;
+    border-bottom: 2px dotted #888;
+    margin-left: 1em;
+    margin-right: 1em;
+    position: relative;
+    bottom: 0.25em;
+}
+
+/* Price styling */
+.item-price {
+    flex-shrink: 0;
+    color: rgba(192, 0, 0);
+}
+
+/* Description text below each dish name */
+.item-description {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.1rem;
+    padding-left: 0.5em;
+    margin-top: -0.25em;
+    margin-bottom: 0.25em;
+    text-transform: lowercase;
+}
+
+/* ===== LANGUAGE SELECTOR - FLAGS ===== */
+
+/* Layout for language flag buttons */
+#flags {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    padding-right: 2.5rem;
+}
+
+/* Flag image size */
+#flags button img {
+    width: 2em;
+    height: auto;
+}
+
+/* Shadow effect on flag hover */
+#flags button:hover {
+    box-shadow: 1px 1px 2px 2px rgba(46, 45, 45);
+    border-radius: 5px;
+}
+
+/* ===== MISCELLANEOUS ELEMENTS ===== */
+
+/* Logo in the menu page */
+.logo-menu {
+    width: clamp(3rem, 10vw, 5rem);
+}
+
+/* Dotted line divider for legend section */
+.legend-divider {
+    border: none;
+    border-top: 1px dotted #969595;
+    margin: 1.5rem 0 0.5rem;
+}
+
+/* Legend text (notes about frozen products, bottles, etc.) */
+.legend {
+    font-size: 0.9rem;
+    color: #444;
+    font-style: italic;
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+/* "Back to Home" button styling (hidden until JS loads menu) */
+.back-home {
+    font-family: "Lato", sans-serif;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    display: none;
+}
