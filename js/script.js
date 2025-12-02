@@ -75,10 +75,10 @@ let currentLang = 'it';   // Default language
 // Once loaded, renders categories and items, and applies translations.
 async function loadMenu() {
     try {
-        const response = await fetch('data/menu-it.json');
+        const response = await fetch('./data/menu-it.json');
         const dataIt = await response.json();
 
-        const responseEn = await fetch('data/menu-en.json');
+        const responseEn = await fetch('./data/menu-en.json');
         const dataEn = await responseEn.json();
 
         // menuData = {
