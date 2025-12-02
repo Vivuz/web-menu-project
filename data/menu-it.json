@@ -1,0 +1,550 @@
+{
+    "it": {
+        "ANTIPASTI": [
+            {
+                "nome": "TAGLIERE SALUMI E FORMAGGI",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "CARPACCIO DI MANZO",
+                "descrizione": "",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "CARPACCIO DI MANZO STRACCIATELLA E GRANELLA DI PISTACCHIO",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "CARPACCIO DI BUFALA",
+                "descrizione": "",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "VERDURE GRIGLIATE",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            }
+        ],
+        "GRILL": [
+            {
+                "nome": "TAGLIATA DI MANZO RUCOLA E GRANA, 250GR",
+                "descrizione": "",
+                "prezzo": "€16.00"
+            },
+            {
+                "nome": "TAGLIATA DI MANZO CON POMODORINI SECCHI E CACIO CAVALLO STAGIONATO IN GROTTA, 250GR",
+                "descrizione": "",
+                "prezzo": "€16.00"
+            },
+            {
+                "nome": "TAGLIATA DI MANZO CON CREMA DI PISTACCHI E BURRATA, 250GR",
+                "descrizione": "",
+                "prezzo": "€18.00"
+            }
+        ],
+        "HAMBURGER* AL PIATTO": [
+            {
+                "nome": "HAMBURGER* PISTACCHIOSO",
+                "descrizione": "(BURRATA E CREMA DI PISTACCHIO, 200GR)",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "HAMBURGER* CACIO E PEPE",
+                "descrizione": "(BACON CROCCANTE E CREMA DI CACIO E PEPE, 200GR)",
+                "prezzo": "€10.00"
+            }
+        ],
+        "STUZZICHERIA": [
+            {
+                "nome": "PATATINE FRITTE*",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            },
+            {
+                "nome": "PATATE DOLCI*",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "PETTOLINE*",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            },
+            {
+                "nome": "ANELLINI DI CIPOLLA*",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            },
+            {
+                "nome": "MOZZARELLINE AL TARTUFO*",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "CACIO E PEPE NUGGETS*",
+                "descrizione": "",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "CHICKEN STICK*",
+                "descrizione": "",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "POLPETTE PISTACCHIOSE",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "POLPETTE CACIO E PEPE",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "JALAPEÑO*",
+                "descrizione": "",
+                "prezzo": "€7.00"
+            }
+        ],
+        "PIZZE ROSSE GOURMET": [
+            {
+                "nome": "THE BLONDES",
+                "descrizione": "(BORDO RIPIENO SALSICCIA FRESCA E CACIOCAVALLO DI GROTTA, POMODORO, MOZZARELLA, DATTERINO GIALLO, DOPO COTTURA GUANCIALE CROCCANTE E BURRATA)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "LA CALABRESE",
+                "descrizione": "(POMODORO, SALSICCIA PICCANTE, CREMA DI NDUJA, DOPO COTTURA BURRATA, POMODORO SECCO, RUCOLA, OLIO EVO)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "LA CANTABRICA",
+                "descrizione": "(POMODORO, MOZZARELLA, ALICI DEL CANTABRICO, DOPO COTTURA BURRATA,POMODORI SECCHI, OLIO EVO)",
+                "prezzo": "€12.00"
+            }
+        ],
+        "PIZZE BIANCHE GOURMET": [
+            {
+                "nome": "FRANCY",
+                "descrizione": "(MOZZARELLA, CACIOCAVALLO DI GROTTA, DOPO COTTURA CAPOCOLLO, POMODORO SECCO E BURRATINA ALL'NDUJA, )",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "PEPPINO",
+                "descrizione": "(MOZZARELLA, FUNGHI PORCINI, DOPO COTTURA CAPOCOLLO, STRACCIATELLA E NOCI)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "SALMONE",
+                "descrizione": "(MOZZARELLA, SALMONE AFFUMICATO, LIMONE, GRANELLA DI PISTACCHIO, STRACCHINO)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "ARICCIA",
+                "descrizione": "(MOZZARELLA, PORCHETTA DI ARICCIA, PATATE AL FORNO, DOPO COTTURA BUFALA CAMPANA)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "ZUCCOSA",
+                "descrizione": "(MOZZARELLA, PROSCIUTTO CRUDO, CREMA DI ZUCCA, FUORI COTTURA BURRATA, OLIO EVO)",
+                "prezzo": "€12.00"
+            },
+            {
+                "nome": "GUANCIALE, CACIO E PEPE",
+                "descrizione": "(MOZZARELLA, GUANCIALE, FUORI COTTURA DATTERINO GIALLO, RUCOLA, CREMA DI CACIO E PEPE, OLIO EVO)",
+                "prezzo": "€12.00"
+            }
+        ],
+        "PIZZE ROSSE": [
+            {
+                "nome": "MARINARA",
+                "descrizione": "(POMODORO, AGLIO, ORIGANO, OLIO EVO)",
+                "prezzo": "€4.00"
+            },
+            {
+                "nome": "CICCIO",
+                "descrizione": "(SALE, ORIGANO, OLIO EVO)",
+                "prezzo": "€3.00"
+            },
+            {
+                "nome": "MARGHERINA",
+                "descrizione": "(POMODORO, MOZZARELLA, OLIO EVO)",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "NAPOLI",
+                "descrizione": "(POMODORO, MOZZARELLA, ACCIUGHE, ORIGANO, OLIO EVO)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "DIAVOLA",
+                "descrizione": "(POMODORO, MOZZARELLA, SALAME PICCANTE, OLIO EVO)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "WÜRSTEL",
+                "descrizione": "(POMODORO, MOZZARELLA, WÜRSTEL, OLIO EVO)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "COTTO",
+                "descrizione": "(POMODORO, MOZZARELLA, PROSCIUTTO COTTO, OLIO EVO)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "TONNO E CIPOLLA",
+                "descrizione": "(POMODORO, MOZZARELLA, TONNO, CIPOLLA, OLIO EVO)",
+                "prezzo": "€7.00"
+            },
+            {
+                "nome": "QUATTRO STAGIONI",
+                "descrizione": "(POMODORO, MOZZARELLA, PROSCIUTTO COTTO, FUNGHI, CARCIOFI, OLIVE, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "CAPRICCIOSA",
+                "descrizione": "(POMODORO, MOZZARELLA, PROSCIUTTO COTTO, FUNGHI, OLIVE, SALAME PICCANTE, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "SAN DANIELE",
+                "descrizione": "(POMODORO, MOZZARELLA, PROSCIUTTO CRUDO, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "VALTELLINA",
+                "descrizione": "(POMODORO, MOZZARELLA, BRESAOLA, RUCOLA, GRANA, OLIO EVO)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "ORTOLANA",
+                "descrizione": "(POMODORO, MOZZARELLA, MELANZANE, ZUCCHINE, PEPERONI, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "BUFALA",
+                "descrizione": "(POMODORO, MOZZARELLA, BUFALA, OLIO EVO)",
+                "prezzo": "€8.00"
+            }
+        ],
+        "PIZZE BIANCHE": [
+            {
+                "nome": "CAPRESE",
+                "descrizione": "(MOZZARELLA, POMODORINI, ORIGANO, OLIO EVO)",
+                "prezzo": "€6.00"
+            },
+            {
+                "nome": "LIMONE",
+                "descrizione": "(MOZZARELLA, PROSCIUTTO COTTO, INSALATA, LIMONE, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "GAMBERETTI E ZUCCHINE",
+                "descrizione": "(MOZZARELLA, GAMBERETTI*, ZUCCHINE, PAN GRATTATO, OLIO EVO)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "SALSICCIA FRESCA",
+                "descrizione": "(MOZZARELLA, SALSICCIA FRESCA, RUCOLA, GRANA, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "FUME'",
+                "descrizione": "(MOZZARELLA, SPECK, SCAMORZA AFFUMICATA, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "QUATTRO FORMAGGI",
+                "descrizione": "(MOZZARELLA, CACIOCAVALLO, EMMENTAL, GORGONZOLA, OLIO EVO)",
+                "prezzo": "€8.00"
+            },
+            {
+                "nome": "CRUDAIOLA",
+                "descrizione": "(MOZZARELLA, POMODORINI, RUCOLA, PROSCIUTTO CRUDO,GRANA, OLIO EVO)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "KEBAB",
+                "descrizione": "(MOZZARELLA, KEBAB*, FUNGHI, CIPOLLA, GRANA, OLIO EVO)",
+                "prezzo": "€9.00"
+            },
+            {
+                "nome": "RE MIDA",
+                "descrizione": "(MOZZARELLA, MORTADELLA, STRACCIATELLA, GRANELLA DI PISTACCHIO, CREMA DI PISTACCHIO, OLIO EVO)",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "DIAVOLA PISTACCHIOSA",
+                "descrizione": "(MOZZARELLA, SALAME PICCANTE, STRACCIATELLA, GRANELLA DI PISTACCHIO, CREMA DI PISTACCHIO, OLIO EVO)",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "CAPOCOLLO",
+                "descrizione": "(MOZZARELLA, CAPOCOLLO, DATTERINO GIALLO, BUFALA IN USCITA, OLIO EVO)",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "BRACCIO DI FERRO",
+                "descrizione": "(BORDO RIPIENO DI STRACCIATELLA, MOZZARELLA, BUFALA, CAPOCOLLO DI MARTINA FRANCA, POMODORINI, RUCOLA, GRANA, OLIO EVO)",
+                "prezzo": "€12.00"
+            }
+        ],
+        "AGGIUNTA INGREDIENTI": [
+            {
+                "nome": "AGGIUNTE",
+                "descrizione": "",
+                "prezzo": "€1.00"
+            },
+            {
+                "nome": "BUFALA",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            },
+            {
+                "nome": "MOZZARELLA SENZA LATTOSIO",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            }
+        ],
+        "Crea il tuo PANUZZO": [
+            {
+                "nome": "PANUZZO CON SALUMI",
+                "descrizione": "",
+                "prezzo": "€10.00"
+            },
+            {
+                "nome": "PANUZZO CON CARNE",
+                "descrizione": "",
+                "prezzo": "€12.00"
+            }
+        ],
+        "DESSERT": [
+            {
+                "nome": "Dessert",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            }
+        ],
+        "BEVANDE ANALCOLICHE": [
+            {
+                "nome": "ACQUA NATURALE/FRIZZANTE, 50CL",
+                "descrizione": "",
+                "prezzo": "€1.00"
+            },
+            {
+                "nome": "ACQUA NATURALE/FRIZZANTE, 75CL",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            },
+            {
+                "nome": "FANTA, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "COCA-COLA, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "COCA-COLA ZERO, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "THE ALLA PESCA",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "THE AL LIMONE",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "APERITIVI IN BOTTIGLIA",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "REDBULL",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            }
+        ],
+        "BIRRE IN BOTTIGLIA": [
+            {
+                "nome": "NASTRO, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "DREHER LEMON, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            },
+            {
+                "nome": "NASTRO 00, 33CL",
+                "descrizione": "",
+                "prezzo": "€2.50"
+            },
+            {
+                "nome": "PERONI NO GLUTINE, 33CL",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            },
+            {
+                "nome": "ICHNUSA, 33CL",
+                "descrizione": "",
+                "prezzo": "€4.00"
+            }
+        ],
+        "BIRRE ALLA SPINA": [
+            {
+                "nome": "KINING HELL, 0.3L",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            },
+            {
+                "nome": "KONING WEISS, 0.3L",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            },
+            {
+                "nome": "OBERBRAI, 0.3L",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            }
+        ],
+        "VINI ROSSI 🍾": [
+            {
+                "nome": "CANTALUPI NEGROAMARO I.G.P SALENTO",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "FICO SUSUMANIELLO",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            },
+            {
+                "nome": "LUMINARIA PRIMITIVO DI MANDURIA",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            },
+            {
+                "nome": "CHICCA PRIMITIVO DI MANDURIA",
+                "descrizione": "",
+                "prezzo": "€25.00"
+            },
+            {
+                "nome": "PRIMITIVO MANDURIA DOC 60 ANNI",
+                "descrizione": "",
+                "prezzo": "€40.00"
+            }
+        ],
+        "VINI BIANCHI 🍾": [
+            {
+                "nome": "CANTALUPI CHARDONNAY",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "RICCIO VERDECA",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            }
+        ],
+        "VINI ROSATI 🍾": [
+            {
+                "nome": "CERASUOLO D'ABRUZZO",
+                "descrizione": "",
+                "prezzo": "€18.00"
+            },
+            {
+                "nome": "TRAMARI",
+                "descrizione": "",
+                "prezzo": "€18.00"
+            },
+            {
+                "nome": "TRIGLIA NEGROAMARO ROSATO",
+                "descrizione": "",
+                "prezzo": "€22.00"
+            }
+        ],
+        "BOLLICINE 🍾": [
+            {
+                "nome": "PROSECCO",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "FONTANA FREDDA",
+                "descrizione": "",
+                "prezzo": "€15.00"
+            },
+            {
+                "nome": "FERRARI",
+                "descrizione": "",
+                "prezzo": "€40.00"
+            },
+            {
+                "nome": "FRANCIACORTA FRATUS",
+                "descrizione": "",
+                "prezzo": "€45.00"
+            },
+            {
+                "nome": "CA DEL BOSCO",
+                "descrizione": "",
+                "prezzo": "€60.00"
+            }
+        ],
+        "RHUM": [
+            {
+                "nome": "DIPLOMATICO",
+                "descrizione": "",
+                "prezzo": "€3.50"
+            },
+            {
+                "nome": "DON PAPA",
+                "descrizione": "",
+                "prezzo": "€4.00"
+            },
+            {
+                "nome": "ZACAPA GRAN RESERVA",
+                "descrizione": "",
+                "prezzo": "€5.00"
+            }
+        ],
+        "GRAPPE": [
+            {
+                "nome": "903 BARRIQUE",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            }
+        ],
+        "AMARI E LIQUORI": [
+            {
+                "nome": "",
+                "descrizione": "",
+                "prezzo": "€3.00"
+            }
+        ],
+        "WHISKY": [
+            {
+                "nome": "",
+                "descrizione": "",
+                "prezzo": "€4.00"
+            }
+        ],
+        "Servizio al tavolo": [
+            {
+                "nome": "",
+                "descrizione": "",
+                "prezzo": "€2.00"
+            }
+        ]
+    }
+}
