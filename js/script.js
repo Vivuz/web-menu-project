@@ -73,27 +73,50 @@ let currentLang = 'it';   // Default language
 
 // Loads menu content from JSON files (Italian and English).
 // Once loaded, renders categories and items, and applies translations.
+//async function loadMenu() {
+  //  try {
+    //    const response = await fetch('./data/menu-it.json');
+      //  const dataIt = await response.json();
+
+        //const responseEn = await fetch('./data/menu-en.json');
+        //const dataEn = await responseEn.json();
+
+        //menuData = {
+          //  it: dataIt.it ?? dataIt,
+           // en: dataEn.en ?? dataEn
+       // };
+
+
+       // renderCategories();  // Render top navigation bar (macro-categories)
+        //renderItems();       // Render full menu with subcategories and items
+        //applyTranslations(currentLang);
+
+ //   } catch (error) {
+   //     console.error('Error loading menu data:', error);
+     //   document.getElementById('items').innerHTML =
+       //     '<p style="color: red; text-align: center; padding: 40px;">Error loading menu data. Please ensure JSON files are available in the data/ folder.</p>';
+    //}
+
+    //document.querySelector('.back-home').style.display = 'inline-block';
+//}
+
 async function loadMenu() {
     try {
         const response = await fetch('./data/menu-it.json');
+        console.log('menu-it status:', response.status);
         const dataIt = await response.json();
 
         const responseEn = await fetch('./data/menu-en.json');
+        console.log('menu-en status:', responseEn.status);
         const dataEn = await responseEn.json();
-
-        // menuData = {
-        //     it: dataIt.it,
-        //     en: dataEn.en
-        // };
 
         menuData = {
             it: dataIt.it ?? dataIt,
             en: dataEn.en ?? dataEn
         };
 
-
-        renderCategories();  // Render top navigation bar (macro-categories)
-        renderItems();       // Render full menu with subcategories and items
+        renderCategories();
+        renderItems();
         applyTranslations(currentLang);
 
     } catch (error) {
@@ -104,6 +127,7 @@ async function loadMenu() {
 
     document.querySelector('.back-home').style.display = 'inline-block';
 }
+
 
 
 // NAVIGATION BAR RENDERING
